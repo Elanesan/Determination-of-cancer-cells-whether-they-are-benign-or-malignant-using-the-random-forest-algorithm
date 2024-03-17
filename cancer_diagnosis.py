@@ -26,7 +26,7 @@ y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
-new_data = [[17, 10, 122, 1001, 0.1184, 0.2777, 0.3001]]
+new_data = [[15, 10, 122, 1001, 0.1184, 0.2777, 0.3001]]
 
 
 prediction = model.predict(new_data)
